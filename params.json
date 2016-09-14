@@ -1,0 +1,6 @@
+{
+  "name": "QC Maskingcode",
+  "tagline": "Quick Corp Code Generator",
+  "body": "# QCMaskingCode\r\nQuick Corp Code Generator\r\n\r\n#Step 1:\r\nRun in console:\r\n> pip install qcmaskingcode\r\n\r\n# Step 2:\r\nInclude in your code the following lines:\r\n> import qcmaskingcode as qcm\r\n> qcm.generate2(1234)\r\nThis generates a representative masking code to 1234\r\n\r\n# Step 3:\r\nFor revert the code:\r\n> qcm.revert2(generatedCode)\r\nWhen 'generatedCode' is a maskingcode generated with qcm.generate2()\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
